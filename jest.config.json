@@ -1,0 +1,14 @@
+{
+  "testEnvironment": "node",
+  "detectOpenHandles": true,
+  "forceExit": true,
+  "testMatch": [
+    "**/*.test.js",
+    "**/*.spec.js"
+  ],
+  "collectCoverageFrom": [
+    "*.js",
+    "!*.test.js",
+    "!*.spec.js"
+  ]
+}
