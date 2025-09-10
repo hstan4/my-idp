@@ -72,9 +72,11 @@ resource "aws_ecs_service" "idp_service" {
   force_new_deployment = true
   
   network_configuration {
-    subnets          = ["subnet-646f9228"]
+    subnets          = ["subnet-17fbd548"]
     security_groups  = ["sg-812ec490"]
     assign_public_ip = true
   }
 }
+
+
 
